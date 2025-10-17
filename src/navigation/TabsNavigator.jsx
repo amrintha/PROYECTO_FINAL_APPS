@@ -4,6 +4,8 @@ import ShopStackNavigator from './ShopStackNavigator';
 import { StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { colors } from '../theme/colors';
+import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+
 
 const Tab = createBottomTabNavigator();
 
@@ -26,7 +28,7 @@ const TabsNavigator = () => {
             <Ionicons
               name="storefront-sharp"
               size={32}
-              color={focused ? colors.neonGreen : colors.mediumGray}
+              color={focused ? colors.black : colors.mediumGray}
             />
         }}
       />
@@ -35,10 +37,10 @@ const TabsNavigator = () => {
         component={CartStackNavigator}
         options={{
           tabBarIcon: ({ focused }) =>
-            <Ionicons
+            <MaterialCommunityIcons
               name="cart-heart"
               size={32}
-              color={focused ? colors.neonGreen : colors.mediumGray}
+              color={focused ? colors.black : colors.mediumGray}
             />
         }}
       />

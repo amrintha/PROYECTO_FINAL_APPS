@@ -6,6 +6,8 @@ import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import {NavigationContainer} from '@react-navigation/native';
 import TabsNavigator from './src/navigation/TabsNavigator';
+import { universoDeportivo } from './src/store';
+import { Provider } from 'react-redux';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -29,10 +31,12 @@ useEffect(() => {
 
 
    return (
+    <Provider store={universoDeportivo}>
     <NavigationContainer>
       <TabsNavigator />
       <StatusBar style="light" />
     </NavigationContainer>
+    </Provider>
   );
 
 }
