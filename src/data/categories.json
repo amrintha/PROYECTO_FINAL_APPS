@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "title":"Adidas",
+        "image":"https://i.postimg.cc/V5Z0nsHV/mountain-logo-adidas.png"
+    },
+    {
+        "id":2,
+        "title":"Nike",
+        "image":"https://i.postimg.cc/fkqSmWgH/Logo-nike-principal.jpg"
+    },
+    {
+        "id":3,
+        "title":"Puma",
+        "image":"https://i.postimg.cc/7GmGBqPQ/Puma-logo.png"
+    },
+    {
+        "id":4,
+        "title":"Reebok",
+        "image":"https://i.postimg.cc/t74VsnD3/Rebook.jpg"
+    },
+    {
+        "id":5,
+        "title":"Under Armour",
+        "image":"https://i.postimg.cc/56HY3chm/Under-Armour-logo.png"
+    },
+    {
+        "id":6,
+        "title":"New Balance",
+        "image":"https://i.postimg.cc/3WxDk09q/new-balance-2-logo-png-transparent.png"
+    }
+]

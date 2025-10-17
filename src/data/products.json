@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "title": "Nike Vomero Premium",
+        "shortDescription":"Calzado de correr en pavimento para mujer",
+        "longDescription":"Lleva la amortiguación máxima al extremo con los Vomero Premium. Dos unidades Air Zoom que aumentan la energía están rodeadas de espuma ZoomX Foam ultraligera y responsiva para ofrecerte la pisada más cómoda para correr en pavimento todos los días.",
+        "price":1284950,
+        "stock":20,
+        "brand":"nike",
+        "category":"Nike",
+        "discount":10,
+        "tags":["mujer", "correr"],
+        "mainImage":"https://i.postimg.cc/p9508Xv3/nike-correr.png"
+    },
+    {
+        "id": 2,
+        "title":"Tenis de Running UA W HOVR Turbulence 2-WHT para Mujer",
+        "shortDescription":"Ideal para: Entrenamiento diario para tu deporte",
+        "longDescription":"Los corredores de distancia necesitan una mezcla perfecta de amortiguación, rebote, durabilidad y eficiencia. Y eso es exactamente lo que obtienes con el UA HOVR™ Turbulence: amortiguación receptiva, una carrera suave y millas de comodidad.",
+        "price":569900,
+        "stock":15,
+        "brand":"under armour",
+        "category":"Under Armour",
+        "discount":5,
+        "tags":["mujer", "correr"],
+        "mainImage":"https://i.postimg.cc/xX4xcNwn/under-armour.png"
+    },
+    {
+        "id": 3,
+        "title":"Tenis Superstar",
+        "shortDescription":"Producto Unisex",
+        "longDescription":"Tanto si vas a lanzar al aro de básquet como a salir por la ciudad, los tenis adidas Superstar tienen la versatilidad y el atractivo retro necesarios para llevarte hasta allí con un estilo clásico.",
+        "price":499950,
+        "stock":18,
+        "brand":"adidas",
+        "category":"Adidas",
+        "discount":10,
+        "tags":["unisex", "calzado"],
+        "mainImage":"https://i.postimg.cc/3y0LpJhF/adidas-originals.png"
+    },
+    {
+        "id": 4,
+        "title":"Tenis Speedcat OG",
+        "shortDescription":"Un clásico de PUMA inspirado en la velocidad de las pistas: las Speedcat OG. ",
+        "longDescription":"Destacan entre la multitud por su forma inspirada en los tenis de los corredores de carreras y por sus líneas elegantes, de aspecto rápido y atrevido. Lleva los deportes de motor a la calle y aduéñate de la tendencia del calzado de baja altura con esta nueva versión del icónico modelo.",
+        "price":422000,
+        "stock":5,
+        "brand":"puma",
+        "category":"Puma",
+        "discount":3,
+        "tags":["hombre", "calzado"],
+        "mainImage":"https://i.postimg.cc/DSZpvPMm/Puma-stilo.png"
+    },
+    {
+        "id": 5,
+        "title":"Men's Coco Delray",
+        "shortDescription":"Inspirada en Coco Gauff",
+        "longDescription":"Esta zapatilla de tenis cuenta con una entresuela FuelCell propulsora para un rendimiento en la pista pensando en el estilo fuera de ella.",
+        "price":461930,
+        "stock":20,
+        "brand":"new balance",
+        "category":"New Balance",
+        "discount":15,
+        "tags":["hombre", "running"],
+        "mainImage":"https://i.postimg.cc/B8PhDQ3r/New-Balance-running.png"
+    },
+    {
+        "id": 6,
+        "title":"Tenis Classics | Bb 4000 Ii Mid | Unisex",
+        "shortDescription":"Clásicos",
+        "longDescription":"Los tenis que todo quieren tener por su estilo",
+        "price":499900,
+        "stock":12,
+        "brand":"reebok",
+        "category":"Reebok",
+        "discount":0,
+        "tags":["unisex", "clasicos"],
+        "mainImage":"https://i.postimg.cc/jDFgLnpR/new-balance-classics.png"
+    }
+]

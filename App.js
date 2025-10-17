@@ -1,20 +1,38 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from 'react-native';
+import Header from './src/components/Header';
+import {  useEffect } from 'react';
+import { useFonts } from 'expo-font';
+import * as SplashScreen from 'expo-splash-screen';
+import {NavigationContainer} from '@react-navigation/native';
+import TabsNavigator from './src/navigation/TabsNavigator';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+SplashScreen.preventAutoHideAsync();
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+export default function App() { 
+  
+const [loaded, error] = useFonts({
+    'BBH-Sans-Bogle': require('./assets/fonts/BBHSansBogle-Regular.ttf'),
+    'Saira-Italic': require('./assets/fonts/Saira-Italic-VariableFont.ttf'),
+    'Saira-Variable': require('./assets/fonts/Saira-VariableFont.ttf'),
 });
+
+useEffect(() => {
+    if (loaded || error) {
+      SplashScreen.hideAsync();
+    }
+  }, [loaded, error]);
+
+  if (!loaded && !error) {
+    return null;
+  }
+
+
+   return (
+    <NavigationContainer>
+      <TabsNavigator />
+      <StatusBar style="light" />
+    </NavigationContainer>
+  );
+
+}
